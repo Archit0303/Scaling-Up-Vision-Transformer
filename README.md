@@ -1,0 +1,9 @@
+Welcome to our project on evaluating linear-attention mechanisms in Transformers for image classification tasks! In this study, we aimed to assess the effectiveness of Performers, regular Transformers, and Linformers architectures in handling small image classification tasks using MNIST and CIFAR-10 datasets.
+
+Our project focused on overcoming the scalability limitations of standard self-attention in Transformers by exploring more efficient linear attention mechanisms. We implemented a Vision Transformer model with standard softmax self-attention as a baseline and compared its performance with Performer and Linformer-based Vision Transformers. We tested various variants of Performers, including those with positive random features and deterministic mechanisms with ReLU and EXP nonlinearities.
+
+Throughout the project, we encountered challenges such as initial accuracy issues in the Performer architecture implementation in PyTorch, which significantly improved after transitioning to TensorFlow. Data preprocessing, hyperparameter tuning, and managing computational resources were also key hurdles that we addressed during the project.
+
+Our results provide valuable insights into the tradeoffs between accuracy and efficiency when utilizing linear attention mechanisms in Transformers for vision tasks. By showcasing the real-world viability of linear attention mechanisms compared to standard softmax attention, especially in computer vision domains, our project contributes to expanding the applicability of Transformers to tasks requiring longer sequences.
+
+In conclusion, our project highlights the potential of linear attention mechanisms to process longer sequences while still capturing long-range dependencies, thus enhancing the scalability and effectiveness of Transformers in various applications.
